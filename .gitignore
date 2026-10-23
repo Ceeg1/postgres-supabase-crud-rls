@@ -1,1 +1,16 @@
 .env.local
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing / Build
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
